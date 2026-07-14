@@ -26,5 +26,56 @@ Follow these steps to get a local copy of the game up and running.
 
 Prerequisites
 Make sure you have Node.js (v16 or higher) installed on your machine.
+ljvx'fg
 
-<img width="441" height="254" alt="image" src="https://github.com/user-attachments/assets/5bb393a5-a69f-4353-8088-0fbb21179d2a" />
+f
+s
+g
+fs
+dg
+dfs
+g
+df
+g
+df
+g
+sd
+fg
+dsf
+g
+dsg
+d
+sg
+sdf
+g
+sfd
+gf
+dgfsd
+g
+dfs
+g
+sdg
+d
+fg
+
+dg
+d
+sg
+d
+g
+d
+gs
+df
+gdf
+g
+df
+g
+ds
+g
+df
+g
+df
+g
+dsg
+
+sdg
