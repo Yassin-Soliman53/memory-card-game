@@ -29,11 +29,14 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
+          cache-dependency-path: 'memory-card game/package-lock.json'
 
       - name: Install dependencies
+        working-directory: './memory-card game'
         run: npm ci
 
       - name: Build
+        working-directory: './memory-card game'
         run: npm run build
 
       - name: Setup Pages
@@ -42,7 +45,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          path: './dist'
+          path: './memory-card game/dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
