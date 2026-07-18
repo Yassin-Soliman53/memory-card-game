@@ -39,11 +39,11 @@ function App() {
         <WinMessage moves={moves} onReset={initializeGame} />
       )}
 
-      <div className="cards-grid">
-        {cards.map((card) => (
-          <Card key={card.id} card={card} onClick={handleCardClick} />
-        ))}
-      </div>
+      <div className="card-grid">
+  {cards.map((card) => (
+      <Card key={card.id} card={card} onClick={handleCardClick} />
+  ))}
+</div>
     </div>
   );
 }

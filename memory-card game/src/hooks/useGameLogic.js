@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 export default function useGameLogic(cardValues) { 
   const [cards, setCards] = useState([]); 
-  const [flippedCards, setFlippedCards] = useState([]);
+  const [, setFlippedCards] = useState([]);
   const [moves, setMoves] = useState(0);
   const [score, setScore] = useState(0);
   const [isGameComplete, setIsGameComplete] = useState(false);
@@ -42,7 +42,7 @@ export default function useGameLogic(cardValues) {
         setDisabled(true);
         setMoves((prevMoves) => prevMoves + 1);
 
-        const [first, second] = newFlipped;
+        const [first] = newFlipped;
 
         if (first.value === clickedCard.value) {
           setCards((prevCards) =>
