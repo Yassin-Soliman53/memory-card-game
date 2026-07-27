@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/memory-card-game/', // <-- Add this line
   plugins: [react()],
+  base: '/memory-card-game/', // Must match your repo name exactly
 })
