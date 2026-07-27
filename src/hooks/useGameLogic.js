@@ -88,11 +88,3 @@ export default function useGameLogic(cardValues) {
     isGameComplete,
   };
 }
-  
-
-  
-
- 
-
-
-

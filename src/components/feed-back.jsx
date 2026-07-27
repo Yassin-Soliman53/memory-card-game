@@ -9,16 +9,20 @@ const Feed_back =() => {
         <>
         <center>
          
-        <h2>Rate us ⭐</h2>
+        <h2 className="h2-fed">Rate us ⭐</h2>
         </center>
-        <form>
-         <label htmlFor="first_name" className="label-fed">YOUR FIRST NAME</label> <br/> 
+        <form className="form">
+        <div className="form-div">
+         <label htmlFor="first_name" className="label-fed">YOUR FIRST NAME : </label> <br/> 
          <input type="text" className="input-fed" id="first_name" placeholder="first name / eg.Yassin"/> <br/>
-         <label htmlFor="last_name" className="label-fed"></label><br/>
+         <label htmlFor="last_name" className="label-fed">LAST NAME : </label><br/>
          <input type="text" className="input-fed" id="last_name" placeholder="last name / eg Soliman"/><br/>
          <label htmlFor="feedback" className="label-fed">YOUR RATE :</label><br/>
-         <input type="text" className="input-fed" id="feedback" placeholder="YOUR RATE / eg the design is grat but tempelte of color not the best"/><br/>
-         <button>sumbit</button>
+         <textarea className="input-fed"></textarea> <br/>
+         <center>
+        <button class="submit">Submit</button>
+         </center>
+         </div>
         </form>
         
         </>
