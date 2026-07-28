@@ -5,7 +5,7 @@ function Nav() {
   return (
     <nav className="nav">
       <div className="nav-div">
-        <div className="logo"> <img src="{logo}"></img></div>
+        <div className="logo"> <img src={logo} alt="Logo" /></div>
         <ul className="nav-ul">
           <li className="nav-li"><Link to="/">Home</Link></li>
           <li className="nav-li"><Link to="/GamePage">Play Game</Link></li>
