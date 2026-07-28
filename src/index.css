@@ -317,14 +317,15 @@ label {
     margin: 20px;
 }
 .input-fed {
-  font-size: 10px;
-  background-color:#0f172a;
-  border-radius:15px;
-  margin: 15px;
-  height: auto;
-  width: 250px;
-  color: white;
-  place-content: center;
+    font-size: 10px;
+    background-color:#0f172a;
+    border-radius:15px;
+    margin: 15px;
+    height: auto;
+    width: 250px;
+    color: white;
+    
+
 }
 textarea { 
     max-width:300px ;
