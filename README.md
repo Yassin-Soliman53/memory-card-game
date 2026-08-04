@@ -22,3 +22,37 @@
 <img width="1421" height="572" alt="image" src="https://github.com/user-attachments/assets/6a55a687-2a68-40a8-98a4-0f6e057bffa3" />
 
 <p> you can write you name and the rate you can give for my game and i will recieve it in my firevase </p>
+
+<h2>this is how to run in your device</h2>
+
+Clone the repository
+
+git clone https://github.com/Yassin-Soliman53/memory-card-game
+
+cd MEMORY CARD
+
+Install dependencies
+
+bash Sit up
+
+npm install
+
+<h5>how to run the server </h5>
+
+npm run dev
+
+Open your browser and visit:
+
+http://localhost:5173/
+
+Build for production:
+
+npm run build
+
+Preview production:
+
+npm run preview
+
+<h4>Note</h4>
+
+This project already includes the Firebase configuration required to run the application, so there is No additional Firebase setup or environment variables are needed for local development.
